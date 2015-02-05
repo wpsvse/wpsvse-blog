@@ -36,7 +36,7 @@ function wpsvse_cpt_blog() {
 		'labels' => $labels,
 		'hierarchical' => false,
 		'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'trackbacks', 'custom-fields', 'comments' ),
-		'taxonomies' => array( 'blog_category' ),
+		'taxonomies' => array( 'blog_category', 'post_tag' ),
 		'public' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
