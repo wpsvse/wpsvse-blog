@@ -19,16 +19,16 @@ add_action( 'init', 'wpsvse_cpt_blog' );
 function wpsvse_cpt_blog() {
 
 	$labels = array( 
-		'name' => _x( 'Inlägg', 'wpsvse' ),
-		'singular_name' => _x( 'Inlägg', 'wpsvse' ),
+		'name' => _x( 'Blogginlägg', 'wpsvse' ),
+		'singular_name' => _x( 'Blogginlägg', 'wpsvse' ),
 		'add_new' => _x( 'Skapa nytt', 'wpsvse' ),
-		'add_new_item' => _x( 'Skapa nytt inlägg', 'wpsvse' ),
-		'edit_item' => _x( 'Redigera inlägg', 'wpsvse' ),
-		'new_item' => _x( 'Nytt inlägg', 'wpsvse' ),
-		'view_item' => _x( 'Visa inlägg', 'wpsvse' ),
-		'search_items' => _x( 'Sök inlägg', 'wpsvse' ),
-		'not_found' => _x( 'Inga inlägg funna', 'wpsvse' ),
-		'not_found_in_trash' => _x( 'Inga inlägg funna i papperskorgen', 'wpsvse' ),
+		'add_new_item' => _x( 'Skapa nytt blogginlägg', 'wpsvse' ),
+		'edit_item' => _x( 'Redigera blogginlägg', 'wpsvse' ),
+		'new_item' => _x( 'Nytt blogginlägg', 'wpsvse' ),
+		'view_item' => _x( 'Visa blogginlägg', 'wpsvse' ),
+		'search_items' => _x( 'Sök blogginlägg', 'wpsvse' ),
+		'not_found' => _x( 'Inga blogginlägg funna', 'wpsvse' ),
+		'not_found_in_trash' => _x( 'Inga blogginlägg funna i papperskorgen', 'wpsvse' ),
 		'menu_name' => _x( 'Blogg', 'wpsvse' ),
 	);
 
@@ -70,20 +70,20 @@ add_action( 'init', 'wpsvse_taxonomy_categories' );
 function wpsvse_taxonomy_categories() {
 
     $labels = array( 
-        'name' => _x( 'Kategorier', 'wpsvse' ),
-        'singular_name' => _x( 'Kategori', 'wpsvse' ),
-        'search_items' => _x( 'Sök kategori', 'wpsvse' ),
-        'popular_items' => _x( 'Populära kategorier', 'wpsvse' ),
-        'all_items' => _x( 'Alla kategorier', 'wpsvse' ),
+        'name' => _x( 'Bloggkategorier', 'wpsvse' ),
+        'singular_name' => _x( 'Bloggkategori', 'wpsvse' ),
+        'search_items' => _x( 'Sök bloggkategori', 'wpsvse' ),
+        'popular_items' => _x( 'Populära bloggkategorier', 'wpsvse' ),
+        'all_items' => _x( 'Alla bloggkategorier', 'wpsvse' ),
         'parent_item' => _x( 'Huvudkategori', 'wpsvse' ),
-        'parent_item_colon' => _x( 'Kategori', 'wpsvse' ),
-        'edit_item' => _x( 'Redigera kategori', 'wpsvse' ),
-        'update_item' => _x( 'Uppdatera kategori', 'wpsvse' ),
-        'add_new_item' => _x( 'Lägg till ny kategori', 'wpsvse' ),
-        'new_item_name' => _x( 'Ny kategori', 'wpsvse' ),
-        'add_or_remove_items' => _x( 'Lägg till eller ta bort kategorier', 'wpsvse' ),
-        'choose_from_most_used' => _x( 'Välj bland mest använda kategorier', 'wpsvse' ),
-        'menu_name' => _x( 'Kategorier', 'wpsvse' ),
+        'parent_item_colon' => _x( 'Bloggkategori', 'wpsvse' ),
+        'edit_item' => _x( 'Redigera bloggkategori', 'wpsvse' ),
+        'update_item' => _x( 'Uppdatera bloggkategori', 'wpsvse' ),
+        'add_new_item' => _x( 'Lägg till ny bloggkategori', 'wpsvse' ),
+        'new_item_name' => _x( 'Ny bloggkategori', 'wpsvse' ),
+        'add_or_remove_items' => _x( 'Lägg till eller ta bort bloggkategorier', 'wpsvse' ),
+        'choose_from_most_used' => _x( 'Välj bland mest använda bloggkategorier', 'wpsvse' ),
+        'menu_name' => _x( 'Bloggkategorier', 'wpsvse' ),
     );
 
     $args = array( 
